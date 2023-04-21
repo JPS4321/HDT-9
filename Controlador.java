@@ -33,8 +33,10 @@ public class Controlador {
                 String temporal = traducir(Oracion_Dividida[u]);
                 builder = builder + " " + temporal;
             }
+            System.out.println(builder);
+            builder = "";
         }
-        System.out.println(builder);
+
     }
 
 
